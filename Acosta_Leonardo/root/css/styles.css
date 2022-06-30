@@ -346,8 +346,7 @@ align-items: center;
 }
 .main4 h2
 {
-width: 438px;
-height: 96px;
+
 font-family: 'Be Vietnam Pro', sans-serif;
 font-style: normal;
 font-weight: 700;
@@ -392,4 +391,71 @@ footer
     left: 0px;
     top: 2392px;
     background: #1E1E26;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-socialbar
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-footer
+{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.form-Copyright
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.links-footer1, .links-footer2
+{
+    list-style-type: none;
+    
+}
+.links-footer1 a, .links-footer2 a
+{
+    text-decoration: none;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.form-footer
+{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 201px;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 50px;
+}
+.form-Copyright button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    
+    width: 63px;
+    height: 42px;
+    
+    background: #F3603B;
+    border-radius: 50px;
 }
