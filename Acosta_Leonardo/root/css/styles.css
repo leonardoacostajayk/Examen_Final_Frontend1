@@ -356,6 +356,8 @@ display: flex;
 align-items: center;
 letter-spacing: -0.005em;
 color: #FFFFFF;
+width: 480px;
+
 }
 .main4 button
 {
@@ -401,12 +403,18 @@ footer
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    width: 42rem;
+    height: 245px;
+    
 }
 .navbar-footer
 {
 display: flex;
 justify-content: space-around;
-align-items: center;
+align-items: center; 
+width: 20rem;
+height: 245px;
+
 }
 
 .form-Copyright
@@ -414,14 +422,27 @@ align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+    width: 50rem;
+    height: 245px;
+       
     
 }
 
 .links-footer1, .links-footer2
 {
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
+  
     
 }
+
+.links-footer1 li, .links-footer2 li
+{
+    height: 2.5em;
+}
+
 .links-footer1 a, .links-footer2 a
 {
     text-decoration: none;
@@ -437,6 +458,12 @@ align-items: center;
 .form-footer
 {
     display: flex;
+    align-items: center; 
+   
+}
+
+.form-footer input
+{
     align-items: center;
     padding: 10px;
     gap: 10px;
@@ -445,6 +472,7 @@ align-items: center;
     background: #FFFFFF;
     border-radius: 50px;
 }
+
 .form-Copyright button
 {
     display: flex;
@@ -452,10 +480,24 @@ align-items: center;
     align-items: center;
     padding: 10px;
     gap: 10px;
-    
     width: 63px;
     height: 42px;
-    
     background: #F3603B;
     border-radius: 50px;
+}
+
+.form-Copyright h5
+{
+font-family: 'Be Vietnam Pro', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 12.5px;
+line-height: 18px;
+color: #8C8C94;
+}
+/* PROPIEDADES ICONOS REDES */
+i{
+    color: #FFFFFF;
+    width: 25px;
+    height:25px;
 }
