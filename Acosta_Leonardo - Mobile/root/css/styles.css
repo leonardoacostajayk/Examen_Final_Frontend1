@@ -7,9 +7,9 @@
 }
 body
 {
-position: absolute;
+/* position: absolute;
 width: 1440px;
-height: 2639px;
+height: 2639px; */
 background: #FFFFFF;
 }
 header
@@ -27,6 +27,7 @@ gap: 224px;
 } 
 .links
 {
+    
     list-style-type: none;
     display: flex;
 }
@@ -77,6 +78,17 @@ display: flex;
 align-items: center;
 color: #FFFFFF;
 }
+/* ICON menu */
+.icon-menu
+{
+    display: none;
+    
+    background: #F3613C;
+    
+   
+}
+
+
 
 /* Secction MAIN1 */
 .main1
@@ -530,7 +542,7 @@ button:hover
 {
     box-shadow: 0px 4px 7px rgba(255, 255, 255, 0.164);
 }
-/* MEDIA QUERIES */ 
+
 
 
 
