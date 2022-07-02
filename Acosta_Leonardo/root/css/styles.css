@@ -24,6 +24,7 @@ left: 0px;
 top: 0px;
 padding: 65px 165px;
 gap: 224px;
+box-sizing: border-box;
   
 } 
 .links
@@ -78,6 +79,10 @@ display: flex;
 align-items: center;
 color: #FFFFFF;
 }
+/* MENU MOBILE */
+.menu-mobile{
+    display: none;
+}
 
 /* Secction MAIN1 */
 .main1
@@ -87,6 +92,7 @@ width: 1129px;
 height: 525px;
 left: 165px;
 top: 213px;
+box-sizing: border-box;
 
 display: flex;
 justify-content:space-around;
@@ -141,6 +147,7 @@ left: 165px;
 top: 837px;
 display: flex;
 justify-content: space-around;
+box-sizing: border-box;
 }
 .texto-whats
 {
@@ -265,6 +272,7 @@ display: flex;
 flex-direction: column;
 justify-content: space-around;
 align-items: center;
+box-sizing: border-box;
 }
 .tarjetas
 {
@@ -282,10 +290,8 @@ align-items: center;
     align-items: center;
     gap: 1.5rem;
     background: #FAFAFA;
-    
     width: 25rem;
     height: 10rem;
-   
     left: 924px;
     top: 1680px;
 
@@ -343,6 +349,7 @@ background: #F3613C;
 display: flex;
 justify-content: space-around;
 align-items: center;
+box-sizing: border-box;
 }
 .main4 h2
 {
@@ -396,6 +403,7 @@ footer
     display: flex;
     justify-content: space-around;
     align-items: center;
+    box-sizing: border-box;
 }
 .logo-socialbar
 {
@@ -525,7 +533,10 @@ button:hover
     background-color: hsl(12 88% 69% / var(--tw-bg-opacity));
 }
 
-/* MEDIA QUERIES */ 
-
+/* VERSION MOBILE */
+@media (min-width:375px)
+ {
+    
+} 
 
 
